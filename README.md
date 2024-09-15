@@ -1,6 +1,6 @@
-# riverpod_example_app
+# flutter_sample_app
 
-A new Flutter project.
+Flutter アプリの学習用として作成したリポジトリになります。
 
 ## Getting Started
 
