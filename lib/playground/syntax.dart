@@ -48,7 +48,7 @@ Future<void> loadSpace() async {
 // const hello = 'こんにちは, 世界';
 const String hello = 'Hello world!';
 
-@Deprecated('deprecated')
+// @Deprecated('deprecated')
 void helloWorld() {
   print(hello);
 }
@@ -61,8 +61,8 @@ late String description;
 /// あなたが今日飲んだペットボトル
 var bottles = const <int>[]; // 再代入可能
 
-const Object i = 10;
-const list = [i as int, 20, 30, 40];
+const Object i = '20';
+const list = [i as String, 20, 30, 40];
 
 // Map
 const map = {
