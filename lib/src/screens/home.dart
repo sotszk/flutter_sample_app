@@ -31,6 +31,7 @@ class HomePage extends ConsumerWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Text('$count'),
             Text(
               '$value $count',
               style: Theme.of(context).textTheme.headlineLarge,
