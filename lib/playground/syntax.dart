@@ -82,5 +82,10 @@ const mapObject = {
   'price': 1000,
 };
 var mapObjectB = <String, String>{
-  'name': 'monbel',
+  'name': 'Monbel',
 }; // Map() と同じ
+
+// Record (タプル)
+const (int, {String name, int age}) tuple = (name: 'wai', age: 20, 20);
+final name2 = tuple.name;
+final numb = tuple.$1;
